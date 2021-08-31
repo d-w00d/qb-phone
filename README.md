@@ -26,6 +26,7 @@ Advanced Phone for QB-Core Framework :iphone:
 ![Lawyers](https://imgur.com/SzIRpsI.png)
 ![Racing](https://imgur.com/cqj1JBP.png)
 ![Crypto](https://imgur.com/Mvv6IZ4.png)
+![JobCenter](https://i.imgur.com/v3RWwxf.png)
 
 ## Features
 - Garages app to see your vehicle details
@@ -35,6 +36,7 @@ Advanced Phone for QB-Core Framework :iphone:
 - App Store to download apps
 - MEOS app for polices to search
 - Houses app for house details and management
+- Job Center app for quick access to basic jobs [WIP]
 
 ## Installation
 ### Manual
