@@ -6,9 +6,9 @@ SetupJobs = function() {
     $(".no5-jobs-list").html("");
     var element = '<div class="no-job-list"><div class="no-jobs">Trucking<p>Deliver boxes to stores.</div></div>'
     var element2 = '<div class="no2-job-list"><div class="no2-jobs">Taxi Driver<p>Helping people go places.</div></div>'
-    var element3 = '<div class="no2-job-list"><div class="no2-jobs">Towing<p>Tow vehicles around.</div></div>'
-    var element4 = '<div class="no2-job-list"><div class="no2-jobs">Reporter<p>Write stories for the news.</div></div>'
-    var element5 = '<div class="no2-job-list"><div class="no2-jobs">Sanitation<p>Clean up the streets.</div></div>'
+    var element3 = '<div class="no3-job-list"><div class="no3-jobs">Towing<p>Tow vehicles around.</div></div>'
+    var element4 = '<div class="no4-job-list"><div class="no4-jobs">Reporter<p>Write stories for the news.</div></div>'
+    var element5 = '<div class="no5-job-list"><div class="no5-jobs">Sanitation<p>Clean up the streets.</div></div>'
     $(".jobs-list").append(element);
     $(".no2-jobs-list").append(element2);
     $(".no3-jobs-list").append(element3);

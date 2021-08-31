@@ -2270,29 +2270,38 @@ RegisterNUICallback('ApplyJob1', function()
     -- Set Job 1 Code
     -- print("This will set the persons job to job #01 [TRUCKER]")
     TriggerServerEvent('qb-cityhall:server:ApplyJob', 'trucker')
-    
+    SetNewWaypoint(141.1231, -3204.30)
+--[[     TriggerServerEvent('qb-phone:server:sendNewMail', {
+        sender = "City Hall",
+        subject = "Trucking Job",
+        message = "Thanks for applying, head to the marker on your GPS and get a truck and start delivering those goods!",
+    }) ]]
 end)
 
 RegisterNUICallback('ApplyJob2', function()
     -- Set Job 2 Code
     -- print("This will set the persons job to job #02 [TAXI]")
     TriggerServerEvent('qb-cityhall:server:ApplyJob', 'taxi')
+    SetNewWaypoint(903.7030, -173.267)
 end)
 
 RegisterNUICallback('ApplyJob3', function()
     -- Set Job 3 Code
     -- print("This will set the persons job to job #03 [TOW]")
     TriggerServerEvent('qb-cityhall:server:ApplyJob', 'tow')
+    SetNewWaypoint(490.2811, -1330.33)
 end)
 
 RegisterNUICallback('ApplyJob4', function()
     -- Set Job 4 Code
     -- print("This will set the persons job to job #04 [REPORTER]")
     TriggerServerEvent('qb-cityhall:server:ApplyJob', 'reporter')
+    SetNewWaypoint(-594.902, -930.018)
 end)
 
 RegisterNUICallback('ApplyJob5', function()
     -- Set Job 5 Code
     -- print("This will set the persons job to job #05 [GARBAGE]")
     TriggerServerEvent('qb-cityhall:server:ApplyJob', 'garbage')
+    SetNewWaypoint(-349.348, -1568.63)
 end)
