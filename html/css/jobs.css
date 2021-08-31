@@ -29,16 +29,14 @@
 }
 .jobs-header > p {
     line-height: 12vh;
-    text-indent: 2vh;
+    text-align: center;
 }
 
 .jobs-header > span {
     position: absolute;
-    top: 9vh;
-    left: 2vh;
-    font-size: 1.2vh;
+    top: 8.5vh;
+    left: 8.7vh;
     height: 2vh;
-    color: rgba(255, 255, 255, 0.842);
 }
 .jobs-list {
     position: absolute;
