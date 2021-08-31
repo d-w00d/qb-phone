@@ -18,7 +18,7 @@ SetupJobs = function() {
 
 $(document).on('click', '.no-job-list', function(e){
     $.post('https://qb-phone/ApplyJob1');
-    QB.Phone.Notifications.Add("fas fa-university", "Job Centre", "You have got the job!<br/>Check your GPS", "#7e0082", 60000);
+    QB.Phone.Notifications.Add("fas fa-university", "Job Centre", "You have got the job!<br/>Check your GPS", "#7e0082", 10000);
 });
 
 $(document).on('click', '.no2-job-list', function(e){
